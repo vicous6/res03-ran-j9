@@ -1,0 +1,48 @@
+#truc{
+    transform: rotate(220deg); 
+}
+nav {
+    width:100%;
+    height:100px;
+     background-color:grey;
+     
+     display:flex;
+   justify-content:center;
+   align-items:center;
+}
+:ul{
+    display:flex;
+   justify-content:center;
+   align-items:center;
+   height:80px;
+   width:300px;
+}
+li{
+    width:100px;
+}
+title{
+    height:50px;
+    font-size:30px;
+}
+h1{
+    text-align:center;
+   transform: rotate(-180deg);
+}
+.grid{
+  padding:0; 
+  margin:12px;
+  display:grid; 
+  grid-template-columns:30px 30px 30px; 
+  grid-template-rows:30px 30px 30px; 
+  grid-gap: 12px 16px; 
+  gap:12px 16px; 
+  background-color:grey;
+
+
+}
+.item{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   transform: rotate(-180deg);
+}
